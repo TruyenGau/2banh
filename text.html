@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3 {
+            font-size: 24px;
+            line-height: 45px;
+            color: #fff;
+            padding: 0 15px;
+            background-color: #000;
+            position: relative;
+            z-index: 3;
+        }
+
+        h3::before {
+            content: '';
+            position: absolute;
+            border-top: 45px solid transparent;
+            border-bottom: 0 solid transparent;
+            border-right: 45px solid #000;
+            top: 0;
+            right: 100%;
+        }
+
+        .title-s3 h3::after {
+            content: '';
+            position: absolute;
+            border-top: 0 solid transparent;
+            border-bottom: 45px solid transparent;
+            border-left: 45px solid #000;
+            top: 0;
+            left: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>SẢN PHẨM NỔI BẬC
+    </h3>
+
+</body>
+
+</html>

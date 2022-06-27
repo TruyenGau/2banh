@@ -1,0 +1,385 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    height: 150px;
+    font-size: 45px;
+    margin: 0px 10px 0px 10px;
+    background-image: url("/ảnh/abc.jpg");
+    background-size: 1345px 150px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px orangered;
+    color: orange;
+}
+
+.block {
+    height: 45px;
+}
+
+.menu {
+    float: left;
+    width: 1100px;
+    height: 45px;
+    background-size: contain;
+    list-style-type: none;
+    margin: 0px 0px 0px 10px;
+    padding: 0;
+    background-color: red;
+}
+
+ul.root>li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+}
+
+ul.root>li>a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    line-height: 45px;
+    padding: 0px 10px 0px 10px;
+    /* font-style: italic; */
+}
+
+ul.root>li>a:hover {
+    border-radius: 30px;
+    background-color: rgb(74, 2, 2);
+    display: block;
+}
+
+ul.sub-menu {
+    width: 180px;
+    min-height: 135px;
+    display: none;
+    position: absolute;
+    background-color: red;
+}
+
+ul.sub-menu>li {
+    font-size: 13px;
+    list-style-type: none;
+    /* font-style: italic; */
+}
+
+ul.sub-menu>li>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    line-height: 45px;
+    text-indent: 35px;
+}
+
+ul.sub-menu>li>a:hover {
+    border-radius: 30px;
+    background-color: rgb(74, 2, 2);
+}
+
+ul.root>li:hover ul.sub-menu {
+    display: block;
+}
+
+.maincontent {
+    width: 100%;
+    margin: 0px 10px 0px 10px;
+    height: 500px;
+    font-size: 20px;
+    padding-top: 5px;
+    background-image: url("../images/nen.jpg");
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+}
+
+.left {
+    float: left;
+    width: 600px;
+    height: 420px;
+    padding-right: 10px;
+}
+
+.right {
+    float: left;
+    width: 680px;
+    height: 420px;
+    padding-left: 30px;
+}
+
+.maincontent .left img {
+    border-radius: 50%;
+}
+
+.maincontent .right img {
+    border-radius: 50%;
+}
+
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 400px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border: 1px solid #ddd;
+    margin-top: 0px;
+}
+
+#myUL {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li {
+    margin-left: 930px;
+    margin-right: 10px;
+}
+
+#myUL li a {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 0px 3px rgb(223, 228, 233);
+}
+
+#myUL li a.header {
+    cursor: default;
+}
+
+#myUL li a:hover {
+    color: green;
+}
+
+/* footer */
+.footer-1 {
+    padding-right: 60px;
+    z-index: 1000 !important;
+}
+
+footer {
+    background-color: #2b2b2b;
+    margin-top: 40px;
+    height: 348px;
+    width: 100%;
+}
+
+.thongtinlienhe {
+    height: 100px;
+    width: 260px;
+    float: left;
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.thongtinlienhe img {
+    padding: 0 5px 0 0;
+}
+
+.thongtinlienhe1 {
+    height: 53px;
+    width: 330px;
+    float: right;
+    padding-top: 50px;
+
+}
+
+.thongtinlienhe1 img {
+    padding: 0 5px 0 0;
+}
+
+.thongtinlienhe1 h3 {
+    padding-bottom: 9px;
+}
+
+.thongtinlienhe1 hr {
+    margin-bottom: 20px;
+}
+
+.thongtinlienhe span,
+h3,
+h4 {
+    color: #e3e3e3;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.thongtinlienhe h3 {
+    padding-bottom: 9px;
+}
+
+.thongtinlienhe hr {
+    margin-bottom: 20px;
+}
+
+.ft {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+iframe {
+    float: right;
+    padding: 0px 20px 0 0;
+}
+
+/* css mới */
+.first {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+
+}
+
+.first-1 {
+    /* margin-right: 20px; */
+    color: #c00;
+    font-size: 14px;
+}
+
+.first-2 {
+    color: #898989 !important;
+    font-size: 14px;
+}
+
+.thongtin {
+    padding-left: 35px;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8e8e8;
+    height: 190px;
+    text-align: center;
+    padding-top: 30px;
+    /* padding-bottom: 50px; */
+}
+
+.lienhe {
+    margin-left: 100px;
+}
+
+.lienhe12 {
+    margin-right: 100px;
+}
+
+.lienhe {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/*   */
+.lienhe1 {
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.lienhe12 {
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.hr {
+    margin-top: 5px;
+}
+.anh {
+    margin-right: 130px;
+}
+.dienform {
+    margin-right: 160px;
+}
+.dienform p {
+    height: 13px;
+    font-family: Helvetica;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    color: #212121;
+    padding-bottom: 10px;
+}
+.form {
+    display: flex;
+    justify-content: end;
+    padding-top: 50px;
+}
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  select {
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .hoten-gioitinh {
+      display: flex;
+  }
+  .hoten-gioitinh input {
+      margin-right: 10px;
+  }
+
+  .sodt-email {
+      display: flex;
+      justify-content: space-between;
+  }
+  .sodt-email input.abc {
+      margin-right: 10px;
+  }
+  .tinh-diachi {
+      display: flex;
+  }
+  .tinh-diachi select {
+      margin-right: 10px;
+  }
+  .danhmuc select {
+      width: 100%;
+  }
+  .submit {
+      width: 120px;
+      height: 50px;
+      background-color: #c00;
+      color: white;
+      text-align: center;
+      justify-content: center;
+      border-radius: 4px;
+      margin-left: 220px;
+  }
+  .submit p {
+    padding-top: 14px;
+    margin-left: 25px;
+    color: white;
+    font-size: 15px;
+  }
